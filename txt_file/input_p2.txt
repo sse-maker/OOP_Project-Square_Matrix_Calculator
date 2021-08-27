@@ -1,0 +1,7 @@
+M1 + M2
+M1 - M2
+M3 = M1 + M2
+TRANS M2
+M1 = M1 * M1
+M3 = M1 + TRANS M2
+M3 = TRANS M1 + M2
